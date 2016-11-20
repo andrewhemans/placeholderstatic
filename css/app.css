@@ -4,9 +4,11 @@ body {
 	font-size: 20px;
 }
 
+
+/*header*/
+
 .parallax-background {
-	background-color: #f5f5f5;
-  background-image: url("images/bg.jpg");
+  background-image: url("../images/bg.jpg");
 	height: 100vh;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -21,13 +23,40 @@ body {
 	font-size: 50px;
 	color: #fff;
 	text-align: center;
-	margin-top: 15%;
+	margin-top: 25%;
 }
-.mainbody-content {
+
+/*Navigation*/
+
+.top-bar-container {
+  width: 100%;
+
+}
+
+.sticky {
+  width: 100%;
+  height: 10vh;
+}
+
+.top-bar {
+  height: 10vh;
+  background-color: #4A4A4A;
+}
+
+/*Content*/
+
+.mainbody {
 	max-width: 100%;
 	position: relative;
-	top: 100vh;
-	padding: 50px;
+	top: 90vh;
 	font-size: 20px;
 	background-color: #fff;
+}
+
+.content {
+  max-width: 100%;
+  position: relative;
+  padding: 50px;
+  font-size: 20px;
+  background-color: #fff;
 }
