@@ -131,8 +131,6 @@ right: 0%;
 .article {
   background-color: #fff;
   height: 300px;
-  /*position: relative;*/
-  /*background-image: url("../images/bg.jpg");*/
   background-size: cover;
 }
 
