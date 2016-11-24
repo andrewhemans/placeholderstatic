@@ -39,11 +39,18 @@ h2 {
 	width: 100%;
 }
 
-.intro-text {
+.intro-container {
 	font-size: 50px;
 	color: #fff;
 	text-align: center;
-	margin-top: 25%;
+	margin-top: 40vh;
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+}
+
+.intro-logo {
+	margin: 0 auto;
 }
 
 /*Navigation*/
