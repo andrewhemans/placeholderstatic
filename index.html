@@ -9,8 +9,16 @@
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
   <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400,500,700,900|Lato:300,400,700,700i,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800" rel="stylesheet">
   <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
-
+  <script src="https://use.typekit.net/twh1sbn.js"></script>
+  <script>
+    try {
+      Typekit.load({
+        async: true
+      });
+    } catch (e) {}
+  </script>
 </head>
 
 <body>
@@ -19,6 +27,17 @@
     <div class="intro-logo">
       <img src="images/logo.svg" />
     </div>
+    <div class="feature">
+      <div class="feature-title">
+        <p>BRANDON GETTY’S MAPS TO STOCKTON VOL. 1 RELEASE</p>
+      </div>
+      <div class="feature-subtitle">
+        <p>Photography | November 24 | By Ryan Camero</p>
+      </div>
+      <div class="feature-blurb">
+      </div>
+    </div>
+
   </div>
 
   <div class="parallax-background" id="1">
@@ -35,16 +54,16 @@
           <div class="row main-menu">
             <div class="top-bar-left">
               <ul class="dropdown menu" data-dropdown-menu>
-                <li class="menu-logo"><img src="images/logo.svg" width="71px"/></li>
-                <li class="has-submenu">
+                <li class="menu-logo"><img src="images/logo.svg" width="71px" /></li>
+                <!-- <li class="has-submenu">
                   <a href="#content">Categories</a>
-                  <!-- <ul class="submenu menu vertical" data-submenu>
+                  <ul class="submenu menu vertical" data-submenu>
                     <li><a href="#">Art</a></li>
                     <li><a href="#">Literature</a></li>
                     <li><a href="#">Culture</a></li>
-                  </ul> -->
-                </li>
-                <li><a href="#">About</a></li>
+                  </ul>
+                </li> -->
+                <li><a href="#callout">About</a></li>
                 <li><a href="#">Store</a></li>
               </ul>
             </div>
@@ -55,7 +74,7 @@
           <div class="top-bar-right">
             <ul class="menu">
               <li>
-                <button type="button" class="button">Support</button>
+                <button type="button" class="button">Get Involved</button>
               </li>
             </ul>
           </div>
@@ -67,12 +86,12 @@
     <div class="content" id="content">
 
       <div class="main-title">
-        <h1>Latest</h1>
+        <!-- <h1>Latest</h1> -->
       </div>
 
       <div class="row">
-        <div class="large-6 columns">
-          <div class="article" style="background-image: url(images/bg.jpg);">
+        <div class="large-6 columns article">
+          <div class="article-image" style="background-image: url(images/bg.jpg);">
           </div>
           <div class="description">
             <h2>Harmonizing With The People’s Voice: COP21 Blog</h2>
@@ -81,32 +100,9 @@
             </div>
           </div>
         </div>
-        <div class="large-6 columns">
-          <div class="article" style="background-image: url(images/8.jpg);">
+        <div class="large-6 columns article">
+          <div class="article-image" style="background-image: url(images/8.jpg);">
 
-          </div>
-          <div class="description">
-            <h2>Harmonizing With The People’s Voice: COP21 Blog</h2>
-            <div class="subtitle">
-              <p>Subtitle about this article.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="large-6 columns">
-          <div class="article" style="background-image: url(images/2.jpg);">
-          </div>
-          <div class="description">
-            <h2>Harmonizing With The People’s Voice: COP21 Blog</h2>
-            <div class="subtitle">
-              <p>Subtitle about this article.</p>
-            </div>
-          </div>
-        </div>
-        <div class="large-6 columns">
-          <div class="article" style="background-image: url(images/SelfPortraitII.jpg);">
           </div>
           <div class="description">
             <h2>Harmonizing With The People’s Voice: COP21 Blog</h2>
@@ -118,8 +114,8 @@
       </div>
 
       <div class="row">
-        <div class="large-6 columns">
-          <div class="article" style="background-image: url(images/IMG_9126.jpg);">
+        <div class="large-6 columns article">
+          <div class="article-image" style="background-image: url(images/2.jpg);">
           </div>
           <div class="description">
             <h2>Harmonizing With The People’s Voice: COP21 Blog</h2>
@@ -128,8 +124,8 @@
             </div>
           </div>
         </div>
-        <div class="large-6 columns">
-          <div class="article" style="background-image: url(images/100_4624.jpg);">
+        <div class="large-6 columns article">
+          <div class="article-image" style="background-image: url(images/SelfPortraitII.jpg);">
           </div>
           <div class="description">
             <h2>Harmonizing With The People’s Voice: COP21 Blog</h2>
@@ -137,16 +133,53 @@
               <p>Subtitle about this article.</p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-6 columns article">
+          <div class="article-image" style="background-image: url(images/IMG_9126.jpg);">
+          </div>
+          <div class="description">
+            <h2>Harmonizing With The People’s Voice: COP21 Blog</h2>
+            <div class="subtitle">
+              <p>Subtitle about this article.</p>
+            </div>
+          </div>
+        </div>
+        <div class="large-6 columns article">
+          <div class="article-image" style="background-image: url(images/100_4624.jpg);">
+          </div>
+          <div class="description">
+            <h2>Harmonizing With The People’s Voice: COP21 Blog</h2>
+            <div class="subtitle">
+              <p>Subtitle about this article.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row video-title">
+        <div class="video-text">
+          <p>Featured Video</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="flex-video">
+          <iframe src="https://player.vimeo.com/video/192115958" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div>
       </div>
 
     </div>
 
-    <div class="callout">
+    <!-- <div class="callout">
+
+      </div>
     </div>
 
     <div class="spacer">
-    </div>
+    </div> -->
 
     <!-- Footer -->
     <footer class="footer">
