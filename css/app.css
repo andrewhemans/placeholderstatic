@@ -5,13 +5,13 @@ body {
 }
 
 h1 {
-  font-family: 'proxima-nova', sans-serif;
+	font-family: 'Frank Ruhl Libre', sans-serif;
   font-style: italic;
   font-weight: 700;
 }
 
 h2 {
-  font-family: 'proxima-nova', sans-serif;
+	font-family: 'Frank Ruhl Libre', sans-serif;
   font-weight: 900;
   font-size: 1.5em;
 }
@@ -68,15 +68,16 @@ h2 {
 /*Feature*/
 
 .feature-title {
-	max-width: 600px;
+	max-width: 700px;
 	margin: 0 auto;
 	padding-top: 20px;
 }
 
 .feature-title > p {
-	font-family: 'proxima-nova', sans-serif;
+	font-family: 'Frank Ruhl Libre', sans-serif;
 	font-weight: 900;
-	font-size: 2.5rem;
+	font-size: 3.5rem;
+	line-height: 1.25;
 	text-transform: capitalize;
 }
 
@@ -145,7 +146,7 @@ right: 0%;
 }
 
 .button:hover, .button:focus {
-  background-color: #bb77bb;
+  background-color: #b366b3;
   color: #fefefe; }
 
 /*Content*/
@@ -176,13 +177,7 @@ right: 0%;
 	/*text-transform: uppercase;*/
 }
 
-.description > h2:hover {
-	/*color: #bb77bb;*/
-	text-decoration: underline;
-	-moz-text-decoration-color: #bb77bb; /* Code for Firefox */
-	text-decoration-color: #bb77bb;
 
-}
 
 /*.article:hover {
 	border: solid 4px #0000e6;
